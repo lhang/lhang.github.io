@@ -87,12 +87,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Holli">
-<meta property="og:url" content="http://lhang.github.com/index.html">
+<meta name="description" content="在前端开发中，类似Less，Sass这样的预处理器，变得越来越常见，由于CSS发展的制约，使得CSS开发时，当代码量越来越大，项目变得难以管理和维护。Sass可以让你使用一些在CSS中没有的特性，比如变量，nesting，mixins,继承和其他好的特性，让你编写CSS变得更加方便。 所以，学习并使用一款CSS预处理器也渐渐变成一个前端工程师必不可少的技能。在多个预处理器中，我选择了Sass。 一">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sass基础">
+<meta property="og:url" content="http://lhang.github.com/2017/04/11/SASS基础/index.html">
 <meta property="og:site_name" content="Holli">
+<meta property="og:description" content="在前端开发中，类似Less，Sass这样的预处理器，变得越来越常见，由于CSS发展的制约，使得CSS开发时，当代码量越来越大，项目变得难以管理和维护。Sass可以让你使用一些在CSS中没有的特性，比如变量，nesting，mixins,继承和其他好的特性，让你编写CSS变得更加方便。 所以，学习并使用一款CSS预处理器也渐渐变成一个前端工程师必不可少的技能。在多个预处理器中，我选择了Sass。 一">
+<meta property="og:updated_time" content="2017-04-11T15:28:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Holli">
+<meta name="twitter:title" content="Sass基础">
+<meta name="twitter:description" content="在前端开发中，类似Less，Sass这样的预处理器，变得越来越常见，由于CSS发展的制约，使得CSS开发时，当代码量越来越大，项目变得难以管理和维护。Sass可以让你使用一些在CSS中没有的特性，比如变量，nesting，mixins,继承和其他好的特性，让你编写CSS变得更加方便。 所以，学习并使用一款CSS预处理器也渐渐变成一个前端工程师必不可少的技能。在多个预处理器中，我选择了Sass。 一">
 
 
 
@@ -120,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="http://lhang.github.com/"/>
+  <link rel="canonical" href="http://lhang.github.com/2017/04/11/SASS基础/"/>
 
 
 
 
 
-  <title> Holli </title>
+  <title> Sass基础 | Holli </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -160,9 +165,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -245,9 +248,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -277,10 +280,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/04/11/SASS基础/" itemprop="url">
-                  Sass基础
-                </a>
+                Sass基础
               
             
           </h1>
@@ -331,9 +331,7 @@
       
 
       
-        
-          
-            <p>在前端开发中，类似Less，Sass这样的预处理器，变得越来越常见，由于CSS发展的制约，使得CSS开发时，当代码量越来越大，项目变得难以管理和维护。<br>Sass可以让你使用一些在CSS中没有的特性，比如变量，nesting，mixins,继承和其他好的特性，让你编写CSS变得更加方便。</p>
+        <p>在前端开发中，类似Less，Sass这样的预处理器，变得越来越常见，由于CSS发展的制约，使得CSS开发时，当代码量越来越大，项目变得难以管理和维护。<br>Sass可以让你使用一些在CSS中没有的特性，比如变量，nesting，mixins,继承和其他好的特性，让你编写CSS变得更加方便。</p>
 <p>所以，学习并使用一款CSS预处理器也渐渐变成一个前端工程师必不可少的技能。在多个预处理器中，我选择了Sass。</p>
 <h3 id="一些基础"><a href="#一些基础" class="headerlink" title="一些基础"></a>一些基础</h3><p>Sass有两种语法，使用哪一种取决于个人爱好，只是两种格式需要对应不同的后缀。</p>
 <ol>
@@ -367,20 +365,27 @@
 <p>作者注：这篇文章大部分内容来自<a href="http://sass-lang.com/guide" target="_blank" rel="external">官方入门指南</a>，需要更多内容可以直接看官方文档。</p>
 </blockquote>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -388,405 +393,38 @@
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://lhang.github.com/2017/04/06/Hexo配置指南/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Holli">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Holli">
-    </span>
-
-    
-      <header class="post-header">
-
         
-        
-          <h1 class="post-title" itemprop="name headline">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-              
-                
-                <a class="post-title-link" href="/2017/04/06/Hexo配置指南/" itemprop="url">
-                  Hexo配置指南
-                </a>
-              
+              <a href="/2017/04/06/Hexo配置指南/" rel="prev" title="Hexo配置指南">
+                Hexo配置指南 <i class="fa fa-chevron-right"></i>
+              </a>
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-06T14:10:30+08:00">
-                2017-04-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>本文翻译自官方文档，如需查看最新版本，请 <a href="https://hexo.io/docs/configuration.html#Using-an-Alternate-Config" target="_blank" rel="external">点击</a> </p>
-<p>你的配置可以写在 <code>_config.yml</code> 里，或者用一个替代的配置文件，见本文末尾</p>
-<h3 id="网站配置"><a href="#网站配置" class="headerlink" title="网站配置"></a>网站配置</h3><table>
-<thead>
-<tr>
-<th>设置</th>
-<th>解释</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>title</td>
-<td>网站的标题</td>
-</tr>
-<tr>
-<td>subtitle</td>
-<td>网版的副标题</td>
-</tr>
-<tr>
-<td>description</td>
-<td>网站的描述</td>
-</tr>
-<tr>
-<td>author</td>
-<td>作者名字</td>
-</tr>
-<tr>
-<td>language</td>
-<td>网站的语言，使用 <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank" rel="external">2-letter ISO-639-1 code</a>.默认为en</td>
-</tr>
-<tr>
-<td>timezone</td>
-<td>网站的时区。Hexo使用你计算机默认的时区。你可以在 <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank" rel="external">这里</a> 找到列表。例如：America/New_York, Japan, UTC</td>
-</tr>
-</tbody>
-</table>
-<h3 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h3><table>
-<thead>
-<tr>
-<th>设置</th>
-<th>解释</th>
-<th>默认值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>url</td>
-<td>网站的URL</td>
-<td></td>
-</tr>
-<tr>
-<td>root</td>
-<td>网站的根目录</td>
-<td></td>
-</tr>
-<tr>
-<td>permalink</td>
-<td>网站的永久链接</td>
-<td>:year/:month/:day/:title</td>
-</tr>
-<tr>
-<td>permalink_defaults</td>
-<td>每一节永久链接的默认字符</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<h3 id="网站在子目录的情况"><a href="#网站在子目录的情况" class="headerlink" title="网站在子目录的情况"></a>网站在子目录的情况</h3><p>如果你的网站在一个子目录（例如<a href="http://example.org/blog）" target="_blank" rel="external">http://example.org/blog）</a> 设置<code>url</code>为<code>http://example.org/blog</code>并且设置<code>root</code>为<code>/blog/</code></p>
-</blockquote>
-<h3 id="Directory"><a href="#Directory" class="headerlink" title="Directory"></a>Directory</h3><table>
-<thead>
-<tr>
-<th>设置</th>
-<th>解释</th>
-<th>默认</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>source_dir</td>
-<td>源文件夹，放置你的内容的地方</td>
-<td>source</td>
-</tr>
-<tr>
-<td>public_die</td>
-<td>公开文件夹，放置生成的站点</td>
-<td>public</td>
-</tr>
-<tr>
-<td>tag_dir</td>
-<td>Tag 文件夹</td>
-<td>tags</td>
-</tr>
-<tr>
-<td>archive_dir</td>
-<td>Archive 文件夹</td>
-<td>archives</td>
-</tr>
-<tr>
-<td>category_dir</td>
-<td>Category 文件夹</td>
-<td>categories</td>
-</tr>
-<tr>
-<td>code_dir</td>
-<td>Include code 文件夹</td>
-<td>downloads/code</td>
-</tr>
-<tr>
-<td>i18n_dir</td>
-<td>i18n 文件夹</td>
-<td>:lang</td>
-</tr>
-<tr>
-<td>skip_render</td>
-<td>生成时忽略的文件夹。你可以使用 <a href="https://github.com/isaacs/minimatch" target="_blank" rel="external">glob expressions</a> 来进行路径匹配</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h3><table>
-<thead>
-<tr>
-<th>设置</th>
-<th>解释</th>
-<th>默认</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>new_post_name</td>
-<td>新文章文件名格式</td>
-<td>:title.md</td>
-</tr>
-<tr>
-<td>default_layout</td>
-<td>默认布局</td>
-<td>post</td>
-</tr>
-<tr>
-<td>titlecase</td>
-<td>是否转换标题到 title case</td>
-<td>false</td>
-</tr>
-<tr>
-<td>external_link</td>
-<td>是否在新的tab里打开外部链接</td>
-<td>true</td>
-</tr>
-<tr>
-<td>filename_case</td>
-<td>转换文件名为： 1.小写 2.大写</td>
-<td>0</td>
-</tr>
-<tr>
-<td>render_drafts</td>
-<td>显示草稿</td>
-<td>false</td>
-</tr>
-<tr>
-<td>relative_link</td>
-<td>使链接相对于根目录？</td>
-<td>false</td>
-</tr>
-<tr>
-<td>future</td>
-<td>显示未来的文章</td>
-<td>true</td>
-</tr>
-<tr>
-<td>highlight</td>
-<td>代码块设置</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Category-amp-Tag"><a href="#Category-amp-Tag" class="headerlink" title="Category &amp; Tag"></a>Category &amp; Tag</h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>default_category</td>
-<td>默认类别</td>
-<td>uncategorized</td>
-</tr>
-<tr>
-<td>category_map</td>
-<td>类别</td>
-<td></td>
-</tr>
-<tr>
-<td>tag_map</td>
-<td>标签</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Date-Time-format"><a href="#Date-Time-format" class="headerlink" title="Date / Time format"></a>Date / Time format</h3><p>Hexo 使用 <a href="http://momentjs.com/" target="_blank" rel="external">Moment.js</a> 处理日期</p>
-<table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>date_format</td>
-<td>日期格式</td>
-<td>YYYY-MM-DD</td>
-</tr>
-<tr>
-<td>time_format</td>
-<td>时间格式</td>
-<td>HH:mm:ss</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Pagination"><a href="#Pagination" class="headerlink" title="Pagination"></a>Pagination</h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>per_page</td>
-<td>每页现实的文章数量，设置为0则取消分页</td>
-<td>10</td>
-</tr>
-<tr>
-<td>pagination_dir</td>
-<td>分页文件夹</td>
-<td>page</td>
-</tr>
-</tbody>
-</table>
-<h3 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>theme</td>
-<td>主题名字，false则禁止主题</td>
-</tr>
-<tr>
-<td>deploy</td>
-<td>部署设置</td>
-</tr>
-</tbody>
-</table>
-<h3 id="使用替代的配置文件"><a href="#使用替代的配置文件" class="headerlink" title="使用替代的配置文件"></a>使用替代的配置文件</h3><p>用户自定义的配置文件可以通过在你的 <code>hexo</code> 命令中加上   <code>--config</code> 并跟随一个JSON或YAML配置文件的路径来设置<br>，或者使用逗号分隔开多个配置文件。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"># use &apos;custom.yml&apos; in place of &apos;_config.yml&apos;</div><div class="line">$ hexo server --config custom.yml</div><div class="line"># use &apos;custom.yml&apos; &amp; &apos;custom2.json&apos;, prioritizing &apos;custom2.json&apos;</div><div class="line">$ hexo server --config custom.yml,custom2.json</div></pre></td></tr></table></figure>
-<p>使用多个文件组合所有的配置文件并且保存合并设置到_multiconfig.yml。在后面的值拥有优先权。这个特性可以拥有任意数量的JSON或YAML文件，并且允许任意深的目录。注意，列表中不允许有空格。</p>
-<p>例如：在上面的例子中，如果 <code>foo:bar</code> 在 <code>custom.yml</code>中， 但是 <code>&quot;foo&quot;: &quot;dinosaur&quot;</code> 在 <code>custom2.json</code> 中，<code>_multiconfig.yml</code>会包含<code>foo: dinosaur</code></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -794,6 +432,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -813,8 +455,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -858,6 +509,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一些基础"><span class="nav-number">1.</span> <span class="nav-text">一些基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开始使用"><span class="nav-number">2.</span> <span class="nav-text">开始使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用变量"><span class="nav-number">3.</span> <span class="nav-text">使用变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#嵌套（Nesting）"><span class="nav-number">4.</span> <span class="nav-text">嵌套（Nesting）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Import"><span class="nav-number">5.</span> <span class="nav-text">Import</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mixins"><span class="nav-number">6.</span> <span class="nav-text">Mixins</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#扩展和继承"><span class="nav-number">7.</span> <span class="nav-text">扩展和继承</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运算符"><span class="nav-number">8.</span> <span class="nav-text">运算符</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -965,6 +632,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
